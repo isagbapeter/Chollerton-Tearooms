@@ -1,0 +1,90 @@
+<form action="backPage.php" method="get">
+
+<div class = "gridform">
+Which facility are you keen to know more about:<b>
+		<input type = "radio" name = "feedback" value = "Bed and Breakfast">Bed and Breakfast
+		<input type = "radio" name = "feedback" value = "Craft Shop">Craft Shop
+		<input type = "radio" name = "feedback" value = "Post Office">Post Office
+		<input type = "radio" name = "feedback" value = "Tearoom ">Tearoom
+		<input type = "radio" name = "feedback" value = "Village Store ">Village Store
+</div>
+
+
+<legend>Contact Details</legend>
+<div class = "gridform">
+		<label for = "First name">[F]irst name</label>
+		<input type="text" name="firstName" id= "First name" maxlength="25" accessKey = "F" required>
+</div>
+<div class = "gridform">
+		<label for = "surname">[S]urname</label>
+		<input type="text" name="surname" id = "surname" maxlength="25" accessKey = "S" required>
+</div>
+<div class = "gridform">
+		<label for = "telephone">Telephone</label>
+		<input type="tel" name="telNo" id= "telephone" required>
+</div>		
+<div class = "gridform">
+		<label for = "email">Email</label>
+		<input type="email" name="emailAddress" id= "email" required>
+</div>
+<div class = "gridform">
+		<label for = "postal address">Postal Address</label>
+		<textarea = "ADDRESS" name="postalAddress" rows = "4" cols="40" required></textarea>
+</div>
+
+		</br>
+		How would you like to be contacted:
+<div class= "gridform">
+		<br>
+		<label for= "Post">Post</label>
+		<input type = "radio" name = "communication" id = "Post">
+		<label for= "Email">Email</label>
+		<input type = "radio" name = "communication" id = "Email">
+		<br>
+</div>
+
+	<button type="submit" value="Submit Form">SUBMIT</button>
+	</form>
+	
+<!----CSS--->	
+	.gridform{
+	margin-bottom: 30px;
+	position: relative;
+}
+form{
+	width: 90%;
+	max-width: 600px;
+}
+input, textarea{
+	width: 100%;
+	padding: 10px;
+	outline: 0;
+	border: 1px solid #6b8d53;
+	color: black;
+	background: transparent;
+	font-size: 15px;
+}
+label{
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 10px;
+	color: black;
+	cursor: text;
+	transition: 0.2s;
+}
+button{
+	padding: 10px 0;
+	color: black;
+	outline: none;
+	background: transparent;
+	border: 1px solid #6b8d53;
+	width: 100%;
+	cursor: pointer;
+}
+input:focus~label,
+input:valid~label{
+	top: -35px;
+	font-size: 14px;
+}

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang= "en">
+<head>
+	<meta charset= "utf-8">
+	<meta name = "viewport" content= "width=device-width, initial-scale= 1.0">
+	<title>Credits</title>
+	<link rel = "stylesheet" href= "AssessmentBackup.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel= "stylesheet" type = "text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<section class = "header2">
+	<nav>
+	<!--<a href= ""><img src= ""></a>-->
+	<div class= "navlinks" id="nav-links">
+	<i class="fa fa-times" onclick="hideMenu()"></i>
+	<ul>
+            <li><a href="AssessmentBackup.html">Home</a></li>
+          
+            <li><a href="findOutMore1.html">Find Out More</a></li>
+            
+            <li><a href="viewRequests1.php">View Requests</a></li>
+         
+            <li><a href="credit1.html">Credits</a></li>
+        </ul>
+	</div>
+	<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+<div class= "textbox">
+	<h1>Credits</h1>
+</div>
+</section>
+
+<!--Main section-->
+<main class = "QF">
+<div class= "constant">
+<p>
+NAME: Peter Isagba<br>
+UNIVERSITY ID: w21062644<br>
+EMAIL: chukwunonso.isagba@northumbria.ac.uk<br>
+</p>
+<br>
+<h2>References</h2>
+<p>craftShop:
+Unknown. (Unknown). Available at: https://i.pinimg.com/236x/08/d4/b1/08d4b12195f84063d674822bb3da62f3.jpg (Accessed 16 MAY 2023).
+</p>
+<p>bAndB:
+Unknown. (Unknown). Available at: https://i.pinimg.com/236x/8b/af/5b/8baf5b084b8ae57d68981e449e26d6a1.jpg (Accessed 16 MAY 2023).
+</p>
+<p>postOffice:
+Unknown. (Unknown). Available at: https://i.pinimg.com/236x/78/cb/92/78cb922869b5910903d07807f59e0d0d.jpg (Accessed 16 MAY 2023).
+</p>
+<p>generalStore:
+Unknown. (Unknown). Available at: https://i.pinimg.com/236x/1c/1e/d5/1c1ed5439d5eeceab5bd56e046cfe215.jpg (Accessed 16 MAY 2023).
+</p>
+<p>coverPage:
+Unknown. (Unknown). Available at: https://i.pinimg.com/236x/e8/f0/e4/e8f0e49fbda4f34036472dc51ac61ac7.jpg(Accessed 16 MAY 2023).
+</p>
+<br>
+<h2>Security Considerations</h2>
+<p>At present, Chollerton tearooms has a lot of security risks. The first major concern relates to protecting its user's privacy and data. Currently, the Chollerton Tearooms website only requests basic information from its users. The website cannot enable users create password protected accounts, nor does it have a strong firewall that prevents hackers from accessing it’s server. If the website were to in future encourage more personalised experiences for its users, then all the above risks need to be considered. The website could make use of a good encryption software, such as Bitlocker and OpenSSL, that would help eradicate or minimize such risks. Another security risk for user’s is SQL Injection. This is a common form of cyberattacks on websites which enables the attacker to manipulate or extract date from the website’s database. Some prevention methods could be ensuring that all user input is thoroughly validated and sanitized, using parametrized queries or statements. The site currently has some basic validation, however, it's not secure enough therefore further validation must be added to prevent risks of data leak.
+<p>Lastly, the website is at a strong risk of suffering data loss due to hardware malfunction or hacking like earlier mentioned. This risk can be mitigated by ensuring regular backups of the website’s data onto secure backup software or hard drive.</p>
+</p>
+</div>
+</main>
+
+<!----Javascript for toggle Menu----->
+<script>
+	var navLinks = document.getElementById("nav-links");
+	function showMenu(){
+	 navLinks.style.right = "0";
+	}
+	function hideMenu(){
+	 navLinks.style.right = "-200px";
+	}
+</script>
+
+<!--footer-->
+<footer class= "footer">
+	<div class = "container">
+	<div class = "row">
+	<div class = "footer-col">
+		<h4>Company</h4>
+		<ul class = "points">
+		<li><a href= "#">about us</a></li>
+		<li><a href= "#">our services</a></li>
+		<li><a href= "#">privacy policy</a></li>
+		<li><a href= "#">affiliate program</a></li>
+		</ul>
+	</div>
+	<div class = "footer-col">
+		<h4>Get Help</h4>
+		<ul class = "points">
+		<li><a href= "#">FAQ</a></li>
+		<li><a href= "#">shipping</a></li>
+		<li><a href= "#">returns</a></li>
+		<li><a href= "#">payment options</a></li>
+		</ul>
+	</div>
+	<div class = "footer-col">
+		<h4>online shop</h4>
+		<ul class = "points">
+		<li><a href= "#">clothing</a></li>
+		<li><a href= "#">tearooms</a></li>
+		<li><a href= "#">jewellry</a></li>
+		<li><a href= "#">groceries</a></li>
+		</ul>
+	</div>
+	<div class = "footer-col">
+		<h4>Follow us</h4>
+		<div class = "social-links">
+		<a href= "#"><i class = "fab fa-facebook-f"></i></a>
+		<a href= "#"><i class = "fab fa-twitter"></i></a>
+		<a href= "#"><i class = "fab fa-instagram"></i></a>
+		<a href= "#"><i class = "fab fa-linkedin-in"></i></a>
+		</div>
+	</div>
+	</div>
+	</div>
+	<p class = "copyright">©This website is property of Peter Isagba.</p>
+</footer>
+</body>
+</html>

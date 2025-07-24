@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang = "en">
+<head>
+	<meta charset= "utf-8">
+	<meta name = "viewport" content= "width=device-width, initial-scale= 1.0">
+	<title>Chollerton Tearooms</title>
+	<link rel = "stylesheet" href= "AssessmentBackup.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel= "stylesheet" type = "text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	
+</head>
+<body>
+<section class = "header">
+	<nav>
+	<!--<a href= ""><img src= ""></a>-->
+	<div class= "navlinks" id="nav-links">
+	<i class="fa fa-times" onclick="hideMenu()"></i>
+	<ul>
+            <li><a href="AssessmentBackup.html">Home</a></li>
+          
+            <li><a href="findOutMore1.html">Find Out More</a></li>
+            
+            <li><a href="viewRequests1.php">View Requests</a></li>
+         
+            <li><a href="credit1.html">Credits</a></li>
+        </ul>
+	</div>
+	<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+<div class= "textbox">
+	<h1>Chollerton Tearooms</h1>
+	<p>Located in the hamlet of Chollerton in the beautiful North Tyne Valley, Chollerton Tearooms is the leading luxury provider in the Northern Tyne Valley. Indulge in the ultimate relaxation experience with our luxury tea, bed and breakfast company. Enjoy a leisurely breakfast of delectable pastries, fresh fruit, and savory dishes, made from locally sourced ingredients. Unwind in our serene gardens, take a dip in the pool, or simply curl up with a good book in front of the fireplace. Book your stay now and experience the epitome of luxury and relaxation at our tea, bed and breakfast company.</p>
+<a href= "" class= "knoMore">Visit us To Know More</a>
+</div>
+</section>
+
+<!--Main section-->
+<section class= "Services">
+	<h1>Services We Offer</h1>
+	<p> We provide a range of services from our exceptional tearooms, tasking craft shops, general store, post office and five star bed and breakfast facilities. </p>
+	<div class="row">
+		<section class="service-col">
+			<h3>Tearooms</h3>
+			<p>
+				Enjoy the taste of freshly brewed, premium tea sourced from the finest tea estates around the world. Our tea connoisseurs have carefully curated an extensive selection of tea blends to suit every palate, from classic Earl Grey to exotic, rare teas.
+			</p>
+		</section>
+		<section class="service-col">
+			<h3>Bed and Breakfast</h3>
+			<p>
+				Immerse yourself in the tranquility of our stunning accommodations, featuring spacious and elegantly designed bedrooms, complete with plush bedding and modern amenities.
+			</p>
+		</section>
+		<section class="service-col">
+			<h3>Post Office</h3>
+			<p>
+				At our post office, we are here to provide efficient and reliable service! Conveniently located in the town's centre, our post office is the go-to place for all your shipping and mailing needs.
+			</p>
+		</section>
+		<section class="service-col">
+			<h3>Craft Shop</h3>
+			<p>
+				Step into our cozy craft shop, where creativity comes to life! With our array of DIY items our craft shop is a treasure trove for all your DIY needs, whether you are a novice or experienced DIYer.
+			</p>
+		</section>
+		<section class="service-col">
+			<h3>General Store</h3>
+			<p>
+				Experience shopping in our general village store, your one-stop-shop for your daily essentials! From fresh produce to household cleaning essentials, we take pride in stocking our shelves with high quality goods and in supporting local businessess. 
+			</p>
+		</section>
+	</div>
+</section>
+
+<!---Campus-->
+<section class="campus">
+	<h1>Our Facilities</h1>
+	<p> We provide a range of services from our exceptional tearooms, tasking craft shops, general store, post office and five star bed and breakfast facilities. </p>
+	
+	<div class = "row">
+	<div class = "campus-col">
+		<img src = "cup-black-tea-wooden-background-top-view-copy-space_187166-29879.png" alt = "Tearooms">
+		<div class = "layer">
+			<h3>Tearooms</h3>
+		</div>
+	</div>
+	<div class = "campus-col">
+		<img src = "craftShop.jpg" alt = "Craft shops">
+		<div class = "layer">
+			<h3>Craft Shop</h3>
+		</div>
+	</div>
+	<div class = "campus-col">
+		<img src = "postOffice.jpg" alt = "Post Office">
+		<div class = "layer">
+			<h3>Post office</h3>
+		</div>
+	</div>
+	<div class = "campus-col">
+		<img src = "bAndB.jpg" alt = "Bed and Breakfast">
+		<div class = "layer">
+			<h3>Bed and breakfast</h3>
+		</div>
+	</div>
+	<div class = "campus-col">
+		<img src = "generalStore.jpg" alt = "General Store">
+		<div class = "layer">
+			<h3>General Store</h3>
+		</div>
+	</div>
+	</div>
+</section>
+
+
+<!----Javascript for toggle Menu----->
+<script>
+	var navLinks = document.getElementById("nav-links");
+	function showMenu(){
+	 navLinks.style.right = "0";
+	}
+	function hideMenu(){
+	 navLinks.style.right = "-200px";
+	}
+</script>
+<!--footer-->
+<footer class= "footer">
+	<div class = "container">
+	<div class = "row">
+	<div class = "footer-col">
+		<h4>Company</h4>
+		<ul class = "points">
+		<li><a href= "#">about us</a></li>
+		<li><a href= "#">our services</a></li>
+		<li><a href= "#">privacy policy</a></li>
+		<li><a href= "#">affiliate program</a></li>
+		</ul>
+	</div>
+	<div class = "footer-col">
+		<h4>Get Help</h4>
+		<ul class = "points">
+		<li><a href= "#">FAQ</a></li>
+		<li><a href= "#">shipping</a></li>
+		<li><a href= "#">returns</a></li>
+		<li><a href= "#">payment options</a></li>
+		</ul>
+	</div>
+	<div class = "footer-col">
+		<h4>online shop</h4>
+		<ul class = "points">
+		<li><a href= "#">clothing</a></li>
+		<li><a href= "#">tearooms</a></li>
+		<li><a href= "#">jewellry</a></li>
+		<li><a href= "#">groceries</a></li>
+		</ul>
+	</div>
+	<div class = "footer-col">
+		<h4>Follow us</h4>
+		<div class = "social-links">
+		<a href= "#"><i class = "fab fa-facebook-f"></i></a>
+		<a href= "#"><i class = "fab fa-twitter"></i></a>
+		<a href= "#"><i class = "fab fa-instagram"></i></a>
+		<a href= "#"><i class = "fab fa-linkedin-in"></i></a>
+		</div>
+	</div>
+	</div>
+	</div>
+	<p class = "copyright">©This website is property of Peter Isagba.</p>
+</footer>
+</body>
+</html>
